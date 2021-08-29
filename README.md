@@ -7,7 +7,7 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 
 # Screenshots
 <p float="left">
-  <img src="https://github.com/github-localhost/portfolio/blob/main/image.png" width="400">
+  <img src="https://github.com/github-localhost/portfolio/blob/b39074cd0c47b8c791ea7aae0c9ba7d262667d32/image.png" width="400">
   <img src="https://raw.githubusercontent.com/" width="400">
 </p>
 
