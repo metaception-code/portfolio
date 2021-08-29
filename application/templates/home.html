@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js', author_age=18) }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">oh-my-zsh </span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>MONSTER-PC</span><span class="at">@</span><span
+                                class="path">/home/mindestroyer/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Hello! I'm mindestroyer</p>
+
+            <p class="text-title mobile-view">Hello! I'm mindestroyer</p>
+            <div class="social-icons">
+                <a target="_blank" href="https://github.com/github-localhost">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                <a target="_blank" href="http://t.me/mindestroyer">
+                    <img class="title-logo" src="static/images/material_telegram.svg">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">
+                I love to design, create fun, interesting, and useful things.
+                I am interested in the architecture of systems, how they work from the inside.
+                Sometimes I like to organize myself PET-projects as a hobby, which, among other things,
+                helps me to develop the skills I want.
+
+            </p>
+            <p class="text-content">
+                This is the second year I have been working as a freelancer.
+                Since then, I've been discovering something new every day, and improving on what I already know.
+            </p>
+
+            <p class="text-content">I studied computer security at VSU.
+            </p>
+
+            <p class="text-content">One of my biggest side-projects is <a
+                    href="/projects/superset-customized">Analytics GeniusGroup</a>,
+                a web service used by dozens of employees for analytics and advertising management,
+                with a high traffic volume (tens of thousands of clicks per hour)
+
+            <p class="text-content">In fact, there are a certain amount of other projects
+            I could really be proud of, But maybe I wish there was something more important here.
+            For some recent projects, I invite you to the <a href="/projects"> projects tab </a> </p>
+
+            <p class="text-content">There could have been something else. But..</p>
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

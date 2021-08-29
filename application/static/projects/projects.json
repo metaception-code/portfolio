@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "name": "Analytics GeniusGroup",
+      "link": "superset-customized",
+      "date": "January 2021",
+      "short": "A preview and interaction cabinet built on Apache SuperSet and working with ClickHouse and Renta",
+      "status": "in production",
+      "weight": 7,
+      "tags": [
+        "Python",
+        "Flask",
+        "Superset",
+        "ClickHouse",
+        "Docker"
+      ],
+      "photos": [
+        "/static/projects/superset-customized/img-0.png", "/static/projects/superset-customized/img-1.png",
+        "/static/projects/superset-customized/img-2.png"
+      ]
+    },
+    {
+      "name": "Telegram Shop With Admin Statistic",
+      "link": "telegram-shop-admin",
+
+      "date": "July 2021",
+      "weight": 7,
+      "short": "Telegram store of digital goods with admin panel and statistics",
+      "status": "in production",
+      "tags": [
+        "Python",
+        "Aiogram",
+        "Flask",
+        "Bootstrap",
+        "PostgreSQL"
+      ],
+      "tech_used": [
+        "Python",
+        "PostgreSQL",
+        "Docker",
+        "Redis",
+        "Nginx"
+      ],
+      "photos": [
+        "/static/projects/telegram-shop-admin/img-1.png", "/static/projects/telegram-shop-admin/img-0.png"
+      ]
+    },
+    {
+      "name": "Brandmall.com.ua Scrappers & Synchronizer",
+      "link": "brandmall-parsers",
+      "date": "Aug 2021",
+      "weight": 5,
+      "short": "A bunch of parsers. Sync.",
+      "status": "production",
+      "tags": [
+        "Python",
+        "Web"
+      ],
+      "photos": [
+        "/static/projects/brandmall-parsers/img-0.png"
+      ]
+    },
+    {
+      "name": "At&t + Google IMAP scrappy ",
+      "link": "att-scrappy",
+      "site": "https://unlock-lock.com",
+      "date": "Aug 2021",
+      "weight": 5,
+      "short": "Bypassing AT&T security and verifying emails",
+      "status": "production",
+      "tags": [
+        "Python",
+        "Web",
+        "IMAP",
+        "Att"
+      ],
+      "photos": [
+        "/static/projects/att-scrappy/img-0.png", "/static/projects/att-scrappy/img-1.png"
+      ]
+    },
+    {
+      "name": "Bk autoreger + Admin",
+      "link": "bk-autoreg",
+      "date": "Jan 2021",
+      "weight": 5,
+      "short": "Bypassing bookmaker protection and mass account registration",
+      "status": "complete",
+      "tags": [
+        "Python",
+        "Web",
+        "Indigo Browser",
+        "Flask"
+      ],
+      "photos": [
+        "/static/projects/bk-autoreg/img-0.png"
+      ]
+    },
+    {
+      "name": "Email Validators [Imap/Pop3] ",
+      "link": "email-validator",
+      "date": "Jan 2021",
+      "weight": 5,
+      "short": "The usual email validator",
+      "status": "complete",
+      "tags": [
+        "Python",
+        "Web",
+        "Imap",
+        "Pop3"
+      ],
+      "photos": [
+        "/static/projects/email-validator/img-0.png"
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "link": "portfolio",
+      "date": "Aug 28 - Present",
+      "weight": 5,
+      "short": "Rererere...cursive ",
+      "status": "ongoing",
+      "tags": [
+        "Python",
+        "Web",
+        "Flask",
+        "Docker"
+      ],
+      "photos": [
+        "/static/projects/portfolio/img-1.png"
+      ]
+    }
+
+  ]
+}

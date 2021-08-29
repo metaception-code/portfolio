@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col s12 m4 l8">
+            <span class="date">2020-2021</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">work</i>
+                        <a href="https://freelancehunt.com/freelancer/github-localhost.html" class="title">[work] Freelance</a>
+                    </div>
+                    <span class="content">
+                        I began to do a lot of interesting work, including for companies. Got an internship in Node JS. Got into higher education.
+                        Started learning English, improving my soft skills, as well as everything I know and can do.</span>
+                </li>
+            </ul>
+            <span class="date">2019-2020</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">all_inclusive</i>
+                        <a class="title">[work/education] Freelance  </a>
+                    </div>
+                    <span class="content"> I started to pay more attention to programming, and I even started to work. </span>
+                </li>
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">all_inclusive</i>
+                        <a class="title">[education] Math  </a>
+                    </div>
+                    <span class="content">I started to study hard at math, especially the Olympics.
+                                          I started to prepare for Olympiads, such as 'Pokori Vorob'evi Gory' from Moscow State University,
+                                         'Phystech' from MIPT, 'United Interuniversity Mathematical Olympiad for Schoolchildren',
+                                          which are held all over the CIS, and many others.
+                                            Took diplomas.
+                    </span>
+                </li>
+
+            </ul>
+            <span class="date">2015-2018</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">extension</i>
+                        <a href="https://ru.wikipedia.org/wiki/Шахматы" class="title">[hobby] Chess</a>
+                    </div>
+                    <span class="content"> During that time I became fond of, and then professionally engaged in chess: analyze games with engines such as Stockfish, solve many problems, train my endgame and openings, and even participate in tournaments, including in real life.
+                    At the time I left the game my problem-solving rating was over 2100, and my rating at chess.com / lichess was about 2000.
+
+                        P.S.: Among other things, a little bit of python. But later I gave up.
+                    </span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <br>
+    <br>
+</div>
+
+<!--<li><a href="/projects/" class="title">[]</a>
+    <span class="content"></span></li>-->
+{% endblock %}
