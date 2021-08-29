@@ -1,8 +1,5 @@
-from flask.cli import FlaskGroup, AppGroup
-import click
-
+from flask.cli import FlaskGroup
 from application import create_app
-from application.local_settings import FLASK_PUBLIC_PORT
 
 
 app = create_app()
