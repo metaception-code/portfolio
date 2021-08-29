@@ -14,7 +14,7 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 # Features
 - Docker
 - Nginx
-- Flake8
+- Flake8 [will be soon]
 - Certbot
 - Flask
 
@@ -22,6 +22,4 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 # How to run?
 
 You're free to use this for your own personal portfolio; 
- - 1 
- - 2 
- - 3 
+<code> git clone https://github.com/github-localhost/portfolio </code>
