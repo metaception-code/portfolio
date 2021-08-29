@@ -16,10 +16,9 @@ services:
       FLASK_PUBLIC_PORT:
 
   nginx:
+
     restart: always
-    build:
-      dockerfile: Dockerfile-nginx
-      context: .
+    image: "nginx:latest"
     ports:
       - "80:80"
       - "443:443"
@@ -29,7 +28,7 @@ services:
       - ./data/certbot/www:/var/www/certbot
     networks:
       - web_network
-    depends_on: 
+    links:
       - flask-app
     environment:
      FLASK_PUBLIC_PORT: 8000
