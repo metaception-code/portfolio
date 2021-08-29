@@ -21,11 +21,10 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 
 # How to run?
 
-<code> git clone https://github.com/github-localhost/portfolio
-cd portfolio </code>
-<code> cd portfolio </code>
-<code> ./scripts/init-certbot.sh </code>
-<code> docker-compose build </code>
+<code> git clone https://github.com/github-localhost/portfolio</code><br />
+<code> cd portfolio </code><br />
+<code> ./scripts/init-certbot.sh </code><br />
+<code> docker-compose build </code><br />
 <code> docker-compose up </code>
 
 # Configuration
