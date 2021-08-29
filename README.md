@@ -2,7 +2,7 @@
 
 ----
 
-This is [my personal space on the web](https://tech-with.me). 
+This is [my personal space on the web](https://tech-with.me). Hosted on Amazon AWS
 
 
 # Screenshots
@@ -11,11 +11,12 @@ This is [my personal space on the web](https://tech-with.me).
   <img src="https://raw.githubusercontent.com/" width="400">
 </p>
 
-# Technology
-
-Developed using Python Flask, CSS, JS, Jinja2, Docker and Nginx!
-Hosted on Amazon AWS
-
+# Features
+- Docker
+- Nginx
+- Flake8
+- Certbot
+- Flask
 
 
 # How to run?
