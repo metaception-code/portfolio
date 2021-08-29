@@ -31,7 +31,7 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 Open and edit .env file in project for yorself and in "./scripts/init-certbot.sh" set your domain.
 
 Project examples locates at /application/templates/
-JS and css locates at /application/static
+Static files locates at /application/static
 
 Good luck !
 
