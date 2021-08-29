@@ -1,4 +1,4 @@
-# www.tech-with.me
+# tech-with.me
 
 ----
 
