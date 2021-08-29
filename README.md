@@ -21,5 +21,18 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 
 # How to run?
 
-You're free to use this for your own personal portfolio; 
 <code> git clone https://github.com/github-localhost/portfolio </code>
+<code> cd portfolio </code>
+<code> ./scripts/init-certbot.sh </code>
+<code> docker-compose build </code>
+<code> docker-compose up </code>
+
+# Configuration
+Open and edit .env file in project for yorself and in "./scripts/init-certbot.sh" set your domain.
+
+Project examples locates at /application/templates/
+JS and css locates at /application/css
+
+Good luck !
+
+
