@@ -28,11 +28,19 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 <code> docker-compose up </code>
 
 # Configuration
-Open and edit .env file in project for yorself and in "./scripts/init-certbot.sh" set your domain.
+edit '.env.dist' for yourself, and rename it to '.env'.
+Edit './scripts/init-certbot.sh' to add your domain
 
 Project examples locates at /application/templates/
 Static files locates at /application/static
 
 Good luck !
+
+# Todo's
+
+- Clear up code with flake 
+- Add Flask-Babel's support
+- Compress pictures in projects
+
 
 
