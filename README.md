@@ -41,6 +41,8 @@ Good luck !
 - Clear up code with flake 
 - Add Flask-Babel's support
 - Compress pictures in projects
-
+- Add pytests , tox 
+- Add makefile (?)
+- Add structure's description
 
 
