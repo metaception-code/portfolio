@@ -21,7 +21,7 @@ This is [my personal space on the web](https://tech-with.me). Hosted on Amazon A
 
 # How to run?
 
-<code> git clone <this-repo> </code><br />
+<code> git clone this-repo </code><br />
 <code> cd portfolio </code><br />
 <code> ./scripts/init-certbot.sh </code><br />
 <code> docker-compose build </code><br />
